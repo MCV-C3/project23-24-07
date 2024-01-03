@@ -7,7 +7,9 @@ State shortly what you did during each week. Just a table with the main results 
 * Cristian Gutiérrez
 
 ## Bag of Visual Words (BoVW) classification
-Our tuned model with the optimized parameters is **Dense SIFT (w/ PCA) + SVM (Kernel = RBF)** which obtained a maximum Test Accuracy score of 83.02 during an Optuna optimization run. In terms of the Cross-validation score the best model is **Dense SIFT (w/ LDA) + SVM (Kernel = RBF)** which obtained a maximum cross-val score of 86.42.
+Our tuned model with the optimized parameters is **Dense SIFT (w/ PCA) + SVM (Kernel = RBF)** which obtained a maximum Test Accuracy score of 83.02 during an Optuna optimization run. 
+
+In terms of the Cross-validation score the best model is **Dense SIFT (w/ LDA) + SVM (Kernel = RBF)** which obtained a maximum cross-val score of 86.42.
 
 ```
 Step size = 18
