@@ -41,7 +41,7 @@ We cross-validated every experiment and decided to use it as our metric of choic
 | Dense SIFT + SVM (Kernel = RBF) |82.90| 82.78 |
 | Dense SIFT + SVM (Kernel = Hist Inters) |81.41| 80.06 |
 | Dense SIFT (w/ PCA) + SVM (Kernel = Linear) |78.93| 77.42 |
-| Dense SIFT (w/ PCA) + SVM (Kernel = RBF) |**83.02**| 81.32 |
+| **Dense SIFT (w/ PCA) + SVM (Kernel = RBF)** |**83.02**| **81.32** |
 | Dense SIFT (w/ PCA) + SVM (Kernel = Hist Inters) |79.93| 78.57 |
 | Dense SIFT (w/ LDA) + SVM (Kernel = Linear) |81.66| 86.27 |
 | Dense SIFT (w/ LDA) + SVM (Kernel = RBF) |80.67| 86.42 |
