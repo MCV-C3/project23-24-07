@@ -48,9 +48,9 @@ We cross-validated every experiment and decided to use it as our metric of choic
 | Dense SIFT (w/ LDA) + SVM (Kernel = Hist Inters) |80.55| 85.34|
 | Dense SIFT + SVM (Spatial Pyramids Level = 2) | 81.29 | - |
 | Dense SIFT (w/ PCA) + SVM (Spatial Pyramids Level = 2) | 81.91| - |
-| Fisher Vectors (GMM n_components = 64) | 78.93 | - |
-| Fisher Vectors + PCA n_components = 69 (GMM n_components = 64) | 79.43 | - |
-| Fisher Vectors + LDA n_components = 7 (GMM n_components = 64) |  58.24| - |
+| Fisher Vectors (GMM n = 64) | 78.93 | - |
+| Fisher Vectors w/ PCA (GMM n = 64) | 79.43 | - |
+| Fisher Vectors w/ LDA (GMM n= 64) |  58.24| - |
 
 
 
