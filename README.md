@@ -23,9 +23,29 @@ We cross-validated every experiment and decided to use it as our metric of choic
 | -- | ---------------------- |
 | SIFT | 57.99 |
 | SIFT (w/ LDA) | 66.26 |
-| Dense SIFT (Fine-tuned) | 76.53 |
-| Dense SIFT (Fine-tuned w/ LDA) | 81.69 |
-| Dense SIFT (Fine-tuned w/ LDA + MinMax) | 82.10 |
+| Dense SIFT | 76.53 |
+| Dense SIFT & Scale x2 | 62.72 |
+| Dense SIFT & Scale x4 | 36.76 |
+| Dense SIFT (w/ PCA) | 76.01 |
+| Dense SIFT (w/ LDA) | 81.69 |
+| Dense SIFT (w/ LDA + StandardScaler) | 81.03 |
+| Dense SIFT (w/ LDA + MinMax) | 82.10 |
+| Dense SIFT (w/ LDA + Normalizer) | 81.58 |
+| Dense SIFT (K = 198) | 77.20 |
+| Dense SIFT (w/ PCA) & (K = 198) | 76.56 |
+| Dense SIFT (w/ LDA) & (K = 198) | 84.71 |
+| Dense SIFT (KNN Dist = Euclidean) | 77.2 |
+| Dense SIFT (KNN Dist = Cosine) | 75.74 |
+| Dense SIFT (KNN Dist = Jaccard) | 73.4 |
+| Dense SIFT + SVM (Kernel = Linear) | 77.53 |
+| Dense SIFT + SVM (Kernel = RBF) | 82.78 |
+| Dense SIFT + SVM (Kernel = Hist Inters) | 80.06 |
+| Dense SIFT (w/ PCA) + SVM (Kernel = Linear) | 77.42 |
+| Dense SIFT (w/ PCA) + SVM (Kernel = RBF) | 81.32 |
+| Dense SIFT (w/ PCA) + SVM (Kernel = Hist Inters) | 78.57 |
+| Dense SIFT (w/ LDA) + SVM (Kernel = Linear) | 86.27 |
+| Dense SIFT (w/ LDA) + SVM (Kernel = RBF) | 86.42 |
+
 
 ## Task2 work
 
