@@ -7,7 +7,7 @@ State shortly what you did during each week. Just a table with the main results 
 * Cristian Gutiérrez
 
 ## Bag of Visual Words (BoVW) classification
-Our tuned model with the optimized parameters is **Dense SIFT with PCA and SVM clf** which obtained a maximum Test Accuracy score of 83.02 during an Optuna optimization run.
+Our tuned model with the optimized parameters is **Dense SIFT (w/ PCA) + SVM (Kernel = RBF)** which obtained a maximum Test Accuracy score of 83.02 during an Optuna optimization run. In terms of the Cross-validation score the best model is **Dense SIFT (w/ LDA) + SVM (Kernel = RBF)** which obtained a maximum cross-val score of 86.42.
 
 ```
 Step size = 18
@@ -15,7 +15,7 @@ Number of Features = 185
 Octave Layers = 2
 k_codebook = 198
 Classifier = SVM (with RBF Kernel)
-PCA (with 109 components)
+PCA (with 109 components) / LDA (with 7 components)
 ```
 
 We cross-validated every experiment and decided to use it as our metric of choice to decide for an improvement:
@@ -44,7 +44,7 @@ We cross-validated every experiment and decided to use it as our metric of choic
 | **Dense SIFT (w/ PCA) + SVM (Kernel = RBF)** |**83.02**| **81.32** |
 | Dense SIFT (w/ PCA) + SVM (Kernel = Hist Inters) |79.93| 78.57 |
 | Dense SIFT (w/ LDA) + SVM (Kernel = Linear) |81.66| 86.27 |
-| Dense SIFT (w/ LDA) + SVM (Kernel = RBF) |80.67| 86.42 |
+| **Dense SIFT (w/ LDA) + SVM (Kernel = RBF)** |**80.67**| **86.42** |
 | Dense SIFT (w/ LDA) + SVM (Kernel = Hist Inters) |80.55| 85.34|
 | Dense SIFT + SVM (Spatial Pyramids Level = 2) | 81.29 | - |
 | Dense SIFT (w/ PCA) + SVM (Spatial Pyramids Level = 2) | 81.91| - |
