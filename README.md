@@ -7,7 +7,7 @@ State shortly what you did during each week. Just a table with the main results 
 * Cristian Gutiérrez
 
 ## Bag of Visual Words (BoVW) classification
-Our tuned model with the optimized parameters is **Dense SIFT with PCA and SVM clf**:
+Our tuned model with the optimized parameters is **Dense SIFT with PCA and SVM clf** which obtained a Test Accuracy score of 83.02 during an Optuna optimization run.
 
 - Step size = 18
 - Number of Features = 185
