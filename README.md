@@ -57,7 +57,7 @@ We cross-validated every experiment and decided to use it as our metric of choic
 <img width="840" alt="Screenshot 2024-01-03 at 17 02 37" src="https://github.com/MCV-C3/project23-24-07/assets/57730982/4e7c9a04-e50f-4a38-b7a2-bff3516622c7">
 
 
-## Task2 work
+## Deep learning classification with MLP
 
 <u>Best Params</u>
 
