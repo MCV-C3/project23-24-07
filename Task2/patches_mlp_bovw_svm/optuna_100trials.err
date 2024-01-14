@@ -1,0 +1,340 @@
+2024-01-13 21:13:31.132239: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2024-01-13 21:13:32.743975: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2024-01-13 21:13:32.744880: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2024-01-13 21:13:32.799736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:25:00.0 name: NVIDIA GeForce RTX 3090 computeCapability: 8.6
+coreClock: 1.695GHz coreCount: 82 deviceMemorySize: 23.69GiB deviceMemoryBandwidth: 871.81GiB/s
+2024-01-13 21:13:32.799811: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2024-01-13 21:13:32.801433: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2024-01-13 21:13:32.801503: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2024-01-13 21:13:32.803150: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2024-01-13 21:13:32.803460: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2024-01-13 21:13:32.805054: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2024-01-13 21:13:32.806226: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2024-01-13 21:13:32.809658: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2024-01-13 21:13:32.811234: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2024-01-13 21:13:32.818704: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-13 21:13:32.819285: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2024-01-13 21:13:32.820186: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:25:00.0 name: NVIDIA GeForce RTX 3090 computeCapability: 8.6
+coreClock: 1.695GHz coreCount: 82 deviceMemorySize: 23.69GiB deviceMemoryBandwidth: 871.81GiB/s
+2024-01-13 21:13:32.820243: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2024-01-13 21:13:32.820270: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2024-01-13 21:13:32.820284: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2024-01-13 21:13:32.820298: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2024-01-13 21:13:32.820311: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2024-01-13 21:13:32.820324: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2024-01-13 21:13:32.820338: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2024-01-13 21:13:32.820353: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2024-01-13 21:13:32.821418: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2024-01-13 21:13:32.821479: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2024-01-13 21:13:35.288341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2024-01-13 21:13:35.288447: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2024-01-13 21:13:35.288459: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2024-01-13 21:13:35.290880: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 22422 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:25:00.0, compute capability: 8.6)
+2024-01-13 21:13:40.580921: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2024-01-13 21:13:40.598180: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2300065000 Hz
+2024-01-13 21:13:40.697801: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+[I 2024-01-13 21:15:12,366] A new study created in memory with name: no-name-86605fa2-93c1-4339-a032-c9bde3100e2a
+[I 2024-01-13 21:15:12,367] A new study created in memory with name: no-name-7bbfd6eb-33b5-462a-96fc-2ce962fc42e6
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:19:02,496] Trial 0 finished with value: 0.6852540272614622 and parameters: {'n_clusters': 374}. Best is trial 0 with value: 0.6852540272614622.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:23:22,017] Trial 1 finished with value: 0.6889714993804213 and parameters: {'n_clusters': 487}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:25:12,471] Trial 2 finished with value: 0.6654275092936803 and parameters: {'n_clusters': 191}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:27:59,498] Trial 3 finished with value: 0.6765799256505576 and parameters: {'n_clusters': 270}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:30:02,756] Trial 4 finished with value: 0.6493184634448576 and parameters: {'n_clusters': 189}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:31:38,285] Trial 5 finished with value: 0.6394052044609665 and parameters: {'n_clusters': 134}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:35:19,434] Trial 6 finished with value: 0.6617100371747212 and parameters: {'n_clusters': 355}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:39:38,209] Trial 7 finished with value: 0.6641883519206939 and parameters: {'n_clusters': 482}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:43:32,549] Trial 8 finished with value: 0.6753407682775713 and parameters: {'n_clusters': 453}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:46:52,175] Trial 9 finished with value: 0.6753407682775713 and parameters: {'n_clusters': 432}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:52:43,476] Trial 10 finished with value: 0.6666666666666666 and parameters: {'n_clusters': 632}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 21:58:17,014] Trial 11 finished with value: 0.6802973977695167 and parameters: {'n_clusters': 579}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:01:36,906] Trial 12 finished with value: 0.6654275092936803 and parameters: {'n_clusters': 331}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:05:55,529] Trial 13 finished with value: 0.6802973977695167 and parameters: {'n_clusters': 525}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:09:56,634] Trial 14 finished with value: 0.654275092936803 and parameters: {'n_clusters': 393}. Best is trial 1 with value: 0.6889714993804213.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:16:17,245] Trial 15 finished with value: 0.6964064436183395 and parameters: {'n_clusters': 682}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:22:30,024] Trial 16 finished with value: 0.6840148698884758 and parameters: {'n_clusters': 663}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:28:20,910] Trial 17 finished with value: 0.6914498141263941 and parameters: {'n_clusters': 690}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:33:15,428] Trial 18 finished with value: 0.6926889714993805 and parameters: {'n_clusters': 564}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:34:21,909] Trial 19 finished with value: 0.6096654275092936 and parameters: {'n_clusters': 28}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:39:16,239] Trial 20 finished with value: 0.6802973977695167 and parameters: {'n_clusters': 607}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:44:56,895] Trial 21 finished with value: 0.6716232961586122 and parameters: {'n_clusters': 691}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:49:57,540] Trial 22 finished with value: 0.677819083023544 and parameters: {'n_clusters': 569}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 22:55:58,109] Trial 23 finished with value: 0.6815365551425031 and parameters: {'n_clusters': 692}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:00:50,047] Trial 24 finished with value: 0.6840148698884758 and parameters: {'n_clusters': 534}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:06:37,457] Trial 25 finished with value: 0.6654275092936803 and parameters: {'n_clusters': 660}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:12:05,362] Trial 26 finished with value: 0.6530359355638166 and parameters: {'n_clusters': 617}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:18:58,859] Trial 27 finished with value: 0.6877323420074349 and parameters: {'n_clusters': 700}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:23:54,056] Trial 28 finished with value: 0.6765799256505576 and parameters: {'n_clusters': 592}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:28:14,044] Trial 29 finished with value: 0.6617100371747212 and parameters: {'n_clusters': 539}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:33:39,298] Trial 30 finished with value: 0.6802973977695167 and parameters: {'n_clusters': 639}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:37:16,909] Trial 31 finished with value: 0.6790582403965304 and parameters: {'n_clusters': 493}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:41:34,648] Trial 32 finished with value: 0.6852540272614622 and parameters: {'n_clusters': 559}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:45:10,183] Trial 33 finished with value: 0.6827757125154895 and parameters: {'n_clusters': 494}. Best is trial 15 with value: 0.6964064436183395.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:50:32,789] Trial 34 finished with value: 0.6988847583643123 and parameters: {'n_clusters': 657}. Best is trial 34 with value: 0.6988847583643123.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-13 23:55:56,832] Trial 35 finished with value: 0.7026022304832714 and parameters: {'n_clusters': 657}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:01:00,145] Trial 36 finished with value: 0.6877323420074349 and parameters: {'n_clusters': 644}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:05:41,229] Trial 37 finished with value: 0.6939281288723668 and parameters: {'n_clusters': 593}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:08:05,429] Trial 38 finished with value: 0.6691449814126395 and parameters: {'n_clusters': 264}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:12:45,250] Trial 39 finished with value: 0.677819083023544 and parameters: {'n_clusters': 616}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:17:59,668] Trial 40 finished with value: 0.6852540272614622 and parameters: {'n_clusters': 659}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:22:42,873] Trial 41 finished with value: 0.677819083023544 and parameters: {'n_clusters': 583}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:27:37,279] Trial 42 finished with value: 0.6877323420074349 and parameters: {'n_clusters': 611}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:32:44,221] Trial 43 finished with value: 0.6790582403965304 and parameters: {'n_clusters': 659}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:36:11,705] Trial 44 finished with value: 0.6939281288723668 and parameters: {'n_clusters': 456}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:39:31,775] Trial 45 finished with value: 0.6864931846344485 and parameters: {'n_clusters': 447}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:42:31,714] Trial 46 finished with value: 0.6728624535315985 and parameters: {'n_clusters': 407}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:45:19,364] Trial 47 finished with value: 0.6753407682775713 and parameters: {'n_clusters': 313}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:48:53,761] Trial 48 finished with value: 0.6691449814126395 and parameters: {'n_clusters': 471}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:53:01,454] Trial 49 finished with value: 0.6592317224287485 and parameters: {'n_clusters': 531}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 00:57:07,560] Trial 50 finished with value: 0.6728624535315985 and parameters: {'n_clusters': 514}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:01:43,474] Trial 51 finished with value: 0.6703841387856257 and parameters: {'n_clusters': 565}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:06:49,668] Trial 52 finished with value: 0.6877323420074349 and parameters: {'n_clusters': 633}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:12:45,440] Trial 53 finished with value: 0.6852540272614622 and parameters: {'n_clusters': 670}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:17:38,309] Trial 54 finished with value: 0.6864931846344485 and parameters: {'n_clusters': 602}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:22:13,688] Trial 55 finished with value: 0.6666666666666666 and parameters: {'n_clusters': 555}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:28:06,018] Trial 56 finished with value: 0.6765799256505576 and parameters: {'n_clusters': 676}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:31:15,635] Trial 57 finished with value: 0.6827757125154895 and parameters: {'n_clusters': 426}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:36:03,733] Trial 58 finished with value: 0.6765799256505576 and parameters: {'n_clusters': 587}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:41:24,082] Trial 59 finished with value: 0.6815365551425031 and parameters: {'n_clusters': 633}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:44:39,317] Trial 60 finished with value: 0.6914498141263941 and parameters: {'n_clusters': 375}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:50:25,543] Trial 61 finished with value: 0.6815365551425031 and parameters: {'n_clusters': 699}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 01:56:02,121] Trial 62 finished with value: 0.701363073110285 and parameters: {'n_clusters': 675}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:00:57,265] Trial 63 finished with value: 0.6902106567534076 and parameters: {'n_clusters': 624}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:06:25,677] Trial 64 finished with value: 0.6641883519206939 and parameters: {'n_clusters': 675}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:11:13,525] Trial 65 finished with value: 0.6753407682775713 and parameters: {'n_clusters': 592}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:16:24,704] Trial 66 finished with value: 0.6864931846344485 and parameters: {'n_clusters': 648}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:20:20,964] Trial 67 finished with value: 0.6815365551425031 and parameters: {'n_clusters': 510}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:25:53,092] Trial 68 finished with value: 0.6964064436183395 and parameters: {'n_clusters': 677}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:31:37,367] Trial 69 finished with value: 0.6976456009913259 and parameters: {'n_clusters': 675}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:33:00,097] Trial 70 finished with value: 0.6517967781908303 and parameters: {'n_clusters': 131}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:38:37,377] Trial 71 finished with value: 0.6741016109045849 and parameters: {'n_clusters': 679}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:43:55,643] Trial 72 finished with value: 0.6926889714993805 and parameters: {'n_clusters': 654}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:49:35,520] Trial 73 finished with value: 0.6914498141263941 and parameters: {'n_clusters': 699}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 02:55:20,534] Trial 74 finished with value: 0.6802973977695167 and parameters: {'n_clusters': 676}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:00:34,750] Trial 75 finished with value: 0.6889714993804213 and parameters: {'n_clusters': 634}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:05:33,640] Trial 76 finished with value: 0.677819083023544 and parameters: {'n_clusters': 620}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:11:00,385] Trial 77 finished with value: 0.6951672862453532 and parameters: {'n_clusters': 649}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:16:07,252] Trial 78 finished with value: 0.6939281288723668 and parameters: {'n_clusters': 648}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:21:41,782] Trial 79 finished with value: 0.6790582403965304 and parameters: {'n_clusters': 679}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:26:49,137] Trial 80 finished with value: 0.6753407682775713 and parameters: {'n_clusters': 605}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:32:15,577] Trial 81 finished with value: 0.6790582403965304 and parameters: {'n_clusters': 660}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:37:18,321] Trial 82 finished with value: 0.6802973977695167 and parameters: {'n_clusters': 641}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:42:49,211] Trial 83 finished with value: 0.6555142503097894 and parameters: {'n_clusters': 683}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:48:11,972] Trial 84 finished with value: 0.677819083023544 and parameters: {'n_clusters': 666}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:54:11,464] Trial 85 finished with value: 0.677819083023544 and parameters: {'n_clusters': 699}. Best is trial 35 with value: 0.7026022304832714.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 03:59:11,979] Trial 86 finished with value: 0.7075588599752168 and parameters: {'n_clusters': 621}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:04:10,445] Trial 87 finished with value: 0.6827757125154895 and parameters: {'n_clusters': 620}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:08:30,903] Trial 88 finished with value: 0.6741016109045849 and parameters: {'n_clusters': 547}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:13:05,598] Trial 89 finished with value: 0.6654275092936803 and parameters: {'n_clusters': 575}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:17:50,893] Trial 90 finished with value: 0.6728624535315985 and parameters: {'n_clusters': 600}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:23:22,547] Trial 91 finished with value: 0.6728624535315985 and parameters: {'n_clusters': 660}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:28:24,772] Trial 92 finished with value: 0.6790582403965304 and parameters: {'n_clusters': 643}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:30:54,746] Trial 93 finished with value: 0.6703841387856257 and parameters: {'n_clusters': 269}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:36:24,498] Trial 94 finished with value: 0.6864931846344485 and parameters: {'n_clusters': 688}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:41:38,375] Trial 95 finished with value: 0.6827757125154895 and parameters: {'n_clusters': 628}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:44:18,842] Trial 96 finished with value: 0.667905824039653 and parameters: {'n_clusters': 310}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:49:08,002] Trial 97 finished with value: 0.677819083023544 and parameters: {'n_clusters': 608}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 04:54:46,801] Trial 98 finished with value: 0.6765799256505576 and parameters: {'n_clusters': 666}. Best is trial 86 with value: 0.7075588599752168.
+/ghome/group07/anaconda3/envs/gpu/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 3 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[I 2024-01-14 05:00:20,387] Trial 99 finished with value: 0.6988847583643123 and parameters: {'n_clusters': 685}. Best is trial 86 with value: 0.7075588599752168.

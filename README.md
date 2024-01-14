@@ -59,6 +59,40 @@ We cross-validated every experiment and decided to use it as our metric of choic
 
 ## Task2 work
 
+<u>Best Params</u>
+
+- Patch Based MLP (5 Layers)
+- Patch Size = 32
+- Features = 5th hidden layer
+- BoVW with k = 621
+- Standard Scaler
+- SVM with kernel = RBF
+
+*Note that all the experiment logs are available under the directory `/ghome/group07/`.*
+
+| Model | Val-Test Accuracy |
+| --- | --- |
+| MLP (1 Layer) | 0.6456 |
+| MLP (2 Layers) | 0.5724 |
+| MLP (3 Layers) | 0.6332 |
+| MLP (3 Layers) + Image size (256) | 0.5898 |
+| MLP (3 Layers) + Adam Optimizer | 0.5712 |
+| MLP (3 Layers) + Reduced # Units | 0.5588 |
+| MLP (4 Layers) | 0.6121 |
+| MLP (5 Layers) | 0.6418 |
+| MLP (5 Layers) + L2 Regularization | 0.6034 |
+| MLP (1 L) + SVM @ 1st hidden feat | 0.6617 |
+| MLP (2 L) + SVM @ 2nd hidden feat | 0.6691 |
+| MLP (3 L) + SVM @ 3rd hidden feat | 0.6840 |
+| MLP (4 L) + SVM @ 2nd hidden feat | 0.6852 |
+| MLP (5 L) + SVM @ 2nd hidden feat | 0.6753 |
+| Patch MLP (1 L) + SVM & BoVW @ 1st hidden feat | 0.6741 |
+| Patch MLP (2 L) + SVM & BoVW @ 1st hidden feat | 0.7236 |
+| Patch MLP (3 L) + SVM & BoVW @ 1st hidden feat | 0.7211 |
+| Patch MLP (4 L) + SVM & BoVW @ 1st hidden feat | 0.7261 |
+| Patch MLP (5 L) + SVM & BoVW @ 5th hidden feat | 0.7286 |
+
+
 ## Task3 work
 
 ## Task4 work

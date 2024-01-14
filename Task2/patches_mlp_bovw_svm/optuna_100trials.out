@@ -1,0 +1,130 @@
+2.4.1
+GPUs available: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+2.4.1
+GPUs available: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Found 1881 files belonging to 8 classes.
+Found 807 files belonging to 8 classes.
+Model: "sequential_2"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+reshape (Reshape)            (None, 3072)              0         
+_________________________________________________________________
+first (Dense)                (None, 2048)              6293504   
+_________________________________________________________________
+classification (Dense)       (None, 8)                 16392     
+=================================================================
+Total params: 6,309,896
+Trainable params: 6,309,896
+Non-trainable params: 0
+_________________________________________________________________
+None
+Layer names:
+['reshape', 'first', 'classification']
+
+We will work separately with SVMs for each hidden layer
+
+
+Test accuracy (n_clusters: 374): 0.6852540272614622
+Test accuracy (n_clusters: 487): 0.6889714993804213
+Test accuracy (n_clusters: 191): 0.6654275092936803
+Test accuracy (n_clusters: 270): 0.6765799256505576
+Test accuracy (n_clusters: 189): 0.6493184634448576
+Test accuracy (n_clusters: 134): 0.6394052044609665
+Test accuracy (n_clusters: 355): 0.6617100371747212
+Test accuracy (n_clusters: 482): 0.6641883519206939
+Test accuracy (n_clusters: 453): 0.6753407682775713
+Test accuracy (n_clusters: 432): 0.6753407682775713
+Test accuracy (n_clusters: 632): 0.6666666666666666
+Test accuracy (n_clusters: 579): 0.6802973977695167
+Test accuracy (n_clusters: 331): 0.6654275092936803
+Test accuracy (n_clusters: 525): 0.6802973977695167
+Test accuracy (n_clusters: 393): 0.654275092936803
+Test accuracy (n_clusters: 682): 0.6964064436183395
+Test accuracy (n_clusters: 663): 0.6840148698884758
+Test accuracy (n_clusters: 690): 0.6914498141263941
+Test accuracy (n_clusters: 564): 0.6926889714993805
+Test accuracy (n_clusters: 28): 0.6096654275092936
+Test accuracy (n_clusters: 607): 0.6802973977695167
+Test accuracy (n_clusters: 691): 0.6716232961586122
+Test accuracy (n_clusters: 569): 0.677819083023544
+Test accuracy (n_clusters: 692): 0.6815365551425031
+Test accuracy (n_clusters: 534): 0.6840148698884758
+Test accuracy (n_clusters: 660): 0.6654275092936803
+Test accuracy (n_clusters: 617): 0.6530359355638166
+Test accuracy (n_clusters: 700): 0.6877323420074349
+Test accuracy (n_clusters: 592): 0.6765799256505576
+Test accuracy (n_clusters: 539): 0.6617100371747212
+Test accuracy (n_clusters: 639): 0.6802973977695167
+Test accuracy (n_clusters: 493): 0.6790582403965304
+Test accuracy (n_clusters: 559): 0.6852540272614622
+Test accuracy (n_clusters: 494): 0.6827757125154895
+Test accuracy (n_clusters: 657): 0.6988847583643123
+Test accuracy (n_clusters: 657): 0.7026022304832714
+Test accuracy (n_clusters: 644): 0.6877323420074349
+Test accuracy (n_clusters: 593): 0.6939281288723668
+Test accuracy (n_clusters: 264): 0.6691449814126395
+Test accuracy (n_clusters: 616): 0.677819083023544
+Test accuracy (n_clusters: 659): 0.6852540272614622
+Test accuracy (n_clusters: 583): 0.677819083023544
+Test accuracy (n_clusters: 611): 0.6877323420074349
+Test accuracy (n_clusters: 659): 0.6790582403965304
+Test accuracy (n_clusters: 456): 0.6939281288723668
+Test accuracy (n_clusters: 447): 0.6864931846344485
+Test accuracy (n_clusters: 407): 0.6728624535315985
+Test accuracy (n_clusters: 313): 0.6753407682775713
+Test accuracy (n_clusters: 471): 0.6691449814126395
+Test accuracy (n_clusters: 531): 0.6592317224287485
+Test accuracy (n_clusters: 514): 0.6728624535315985
+Test accuracy (n_clusters: 565): 0.6703841387856257
+Test accuracy (n_clusters: 633): 0.6877323420074349
+Test accuracy (n_clusters: 670): 0.6852540272614622
+Test accuracy (n_clusters: 602): 0.6864931846344485
+Test accuracy (n_clusters: 555): 0.6666666666666666
+Test accuracy (n_clusters: 676): 0.6765799256505576
+Test accuracy (n_clusters: 426): 0.6827757125154895
+Test accuracy (n_clusters: 587): 0.6765799256505576
+Test accuracy (n_clusters: 633): 0.6815365551425031
+Test accuracy (n_clusters: 375): 0.6914498141263941
+Test accuracy (n_clusters: 699): 0.6815365551425031
+Test accuracy (n_clusters: 675): 0.701363073110285
+Test accuracy (n_clusters: 624): 0.6902106567534076
+Test accuracy (n_clusters: 675): 0.6641883519206939
+Test accuracy (n_clusters: 592): 0.6753407682775713
+Test accuracy (n_clusters: 648): 0.6864931846344485
+Test accuracy (n_clusters: 510): 0.6815365551425031
+Test accuracy (n_clusters: 677): 0.6964064436183395
+Test accuracy (n_clusters: 675): 0.6976456009913259
+Test accuracy (n_clusters: 131): 0.6517967781908303
+Test accuracy (n_clusters: 679): 0.6741016109045849
+Test accuracy (n_clusters: 654): 0.6926889714993805
+Test accuracy (n_clusters: 699): 0.6914498141263941
+Test accuracy (n_clusters: 676): 0.6802973977695167
+Test accuracy (n_clusters: 634): 0.6889714993804213
+Test accuracy (n_clusters: 620): 0.677819083023544
+Test accuracy (n_clusters: 649): 0.6951672862453532
+Test accuracy (n_clusters: 648): 0.6939281288723668
+Test accuracy (n_clusters: 679): 0.6790582403965304
+Test accuracy (n_clusters: 605): 0.6753407682775713
+Test accuracy (n_clusters: 660): 0.6790582403965304
+Test accuracy (n_clusters: 641): 0.6802973977695167
+Test accuracy (n_clusters: 683): 0.6555142503097894
+Test accuracy (n_clusters: 666): 0.677819083023544
+Test accuracy (n_clusters: 699): 0.677819083023544
+Test accuracy (n_clusters: 621): 0.7075588599752168
+Test accuracy (n_clusters: 620): 0.6827757125154895
+Test accuracy (n_clusters: 547): 0.6741016109045849
+Test accuracy (n_clusters: 575): 0.6654275092936803
+Test accuracy (n_clusters: 600): 0.6728624535315985
+Test accuracy (n_clusters: 660): 0.6728624535315985
+Test accuracy (n_clusters: 643): 0.6790582403965304
+Test accuracy (n_clusters: 269): 0.6703841387856257
+Test accuracy (n_clusters: 688): 0.6864931846344485
+Test accuracy (n_clusters: 628): 0.6827757125154895
+Test accuracy (n_clusters: 310): 0.667905824039653
+Test accuracy (n_clusters: 608): 0.677819083023544
+Test accuracy (n_clusters: 666): 0.6765799256505576
+Test accuracy (n_clusters: 685): 0.6988847583643123
+Best Score:  0.7075588599752168
+Best Params: 
+  n_clusters: 621
