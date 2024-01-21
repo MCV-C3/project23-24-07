@@ -93,7 +93,31 @@ We cross-validated every experiment and decided to use it as our metric of choic
 | Patch MLP (5 L) + SVM & BoVW @ 5th hidden feat | 0.7286 |
 
 
-## Task3 work
+## Deep learning classification with CNN
+
+* *Disclaimer: During this week we had problems with the server GPUs, as such, they gave very low results and the runs were actually slow. We finally opted to use the CPU of the server.* 
+
+We were assigned the NASNetMobile Convolutional Neural Network. It is one of the nets with less parameters, hence, it is very deep.
+
+<u>Best Params</u>
+
+- 3 Hidden Layers (1024 -> 512 -> 256)
+- Drop-out of 50%
+- No Data Augmentation
+- Batch size of 32
+- Adam Optimizer
+
+*Note that all the experiment logs are available under the directory `/ghome/group07/`.*
+
+|          | Best Experiment                                      |  Val-Test Accuracy |
+| -------- | ---------------------------------------------------- | ------------------ |
+| Task 0   | Original NASNet architecture (Softmax Clf Layer)     | 84%                |
+| Task 1   | NASNet + 3 Dense Hidden Layers (Full-Dataset)        | 95%                |
+| Task 2   | NASNet + 3 Dense Hidden Layers (Small-Dataset)       | 88%                |
+| Task 3   | NASNet + 3 Dense Hidden Layers (Data augmentation)   | 87%                |
+| Task 4   | NASNet + 3 Dense Hidden Layers + Drop Out (0.5)      | 88.12%             |
+| Task 5   | NASNet + 3 Dense Hidden Layers + Drop Out (Optuna)   | 88.40%             |
+
 
 ## Task4 work
 
