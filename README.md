@@ -134,7 +134,7 @@ Also, in order to reduce the parameters, we guided ourselves with the reduction 
 
 *Note that all the experiment logs are available under the directory `/ghome/group07/`.*
 
-<img width="840" src="https://github.com/MCV-C3/project23-24-07/blob/main/Task4/figures/ball_chart.png" alt="Ball Chart"/>
+<img width="500" src="https://github.com/MCV-C3/project23-24-07/blob/main/Task4/figures/ball_chart.png" alt="Ball Chart"/>
 
 | Number of Parameters | Accuracy | Normalized distance to ideal ⭐️ |
 | -------------------- | -------- | ------------------------------- |
