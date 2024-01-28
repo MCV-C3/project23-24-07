@@ -145,6 +145,7 @@ Also, in order to reduce the parameters, we guided ourselves with the reduction 
 | 21k                  | 65%      | 38.04                           |
 | 10k                  | 77%      | 24.07                           |
 | **10k (Fine-tuned)** | **79%**  | **22.16**                       |
+| **10k (Different Paths)** | **77%**  | **24.07**                       |
 
 
 
