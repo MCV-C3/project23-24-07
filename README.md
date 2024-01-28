@@ -136,16 +136,16 @@ Also, in order to reduce the parameters, we guided ourselves with the reduction 
 
 <img width="500" src="https://github.com/MCV-C3/project23-24-07/blob/main/Task4/figures/ball_chart.png" alt="Ball Chart"/>
 
-| Number of Parameters | Accuracy | Normalized distance to ideal ⭐️ |
-| -------------------- | -------- | ------------------------------- |
-| 141k                 | 70%      | 104.40                          |
-| 62k                  | 71%      | 52.67                           |
-| 54k                  | 75%      | 45.75                           |
-| 30k                  | 70%      | 36.78                           |
-| 21k                  | 65%      | 38.04                           |
-| 10k                  | 77%      | 24.07                           |
-| **10k (Fine-tuned)** | **79%**  | **22.16**                       |
-| **10k (Different Paths)** | **77%**  | **24.07**                       |
+| Number of Parameters      | Accuracy | Distance to ideal ⭐️ | Score |
+| ------------------------- | -------- | ---------------------| ----- |
+| 141k                      | 70%      | 104.40               | 49.65 |
+| 62k                       | 71%      | 52.67                | 114.52 |
+| 54k                       | 75%      | 45.75                | 138.89 |
+| 30k                       | 70%      | 36.78                | 233.33 |
+| 21k                       | 65%      | 38.04                | 309.52 |
+| 10k                       | 77%      | 24.07                | 770.09 |
+| **10k (Fine-tuned)**      | **79%**  | **22.16**            | 790.00 |
+| **10k (Different Paths)** | **79%**  | **22.16**            | 790.00 |
 
 
 
