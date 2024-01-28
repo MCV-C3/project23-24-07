@@ -1,0 +1,116 @@
+1
+The device we will be working on is: cuda
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 8, 83, 83]           1,952
+       BatchNorm2d-2            [-1, 8, 83, 83]              16
+              ReLU-3            [-1, 8, 83, 83]               0
+         MaxPool2d-4            [-1, 8, 41, 41]               0
+            Conv2d-5            [-1, 8, 37, 37]           1,608
+       BatchNorm2d-6            [-1, 8, 37, 37]              16
+              ReLU-7            [-1, 8, 37, 37]               0
+            Conv2d-8           [-1, 16, 35, 35]           1,168
+       BatchNorm2d-9           [-1, 16, 35, 35]              32
+             ReLU-10           [-1, 16, 35, 35]               0
+        MaxPool2d-11            [-1, 8, 20, 20]               0
+           Conv2d-12            [-1, 8, 16, 16]           1,608
+      BatchNorm2d-13            [-1, 8, 16, 16]              16
+             ReLU-14            [-1, 8, 16, 16]               0
+        MaxPool2d-15              [-1, 8, 8, 8]               0
+           Conv2d-16             [-1, 16, 6, 6]           1,168
+      BatchNorm2d-17             [-1, 16, 6, 6]              32
+             ReLU-18             [-1, 16, 6, 6]               0
+        MaxPool2d-19            [-1, 8, 13, 13]               0
+           Conv2d-20              [-1, 8, 9, 9]           1,608
+      BatchNorm2d-21              [-1, 8, 9, 9]              16
+             ReLU-22              [-1, 8, 9, 9]               0
+           Conv2d-23             [-1, 16, 7, 7]           1,168
+      BatchNorm2d-24             [-1, 16, 7, 7]              32
+             ReLU-25             [-1, 16, 7, 7]               0
+           Linear-26                    [-1, 8]             392
+================================================================
+Total params: 10,832
+Trainable params: 10,832
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.75
+Forward/backward pass size (MB): 2.19
+Params size (MB): 0.04
+Estimated Total Size (MB): 2.99
+----------------------------------------------------------------
+[Epoch: 1/75 (52.93s)] | Train Loss: 0.0293 | Train Acc: 0.32% | Val Loss: 0.0317 | Val Acc: 0.12%
+[Epoch: 2/75 (20.95s)] | Train Loss: 0.0250 | Train Acc: 0.50% | Val Loss: 0.0257 | Val Acc: 0.41%
+[Epoch: 3/75 (50.31s)] | Train Loss: 0.0223 | Train Acc: 0.58% | Val Loss: 0.0219 | Val Acc: 0.52%
+[Epoch: 4/75 (30.95s)] | Train Loss: 0.0202 | Train Acc: 0.64% | Val Loss: 0.0238 | Val Acc: 0.43%
+[Epoch: 5/75 (41.30s)] | Train Loss: 0.0187 | Train Acc: 0.64% | Val Loss: 0.0182 | Val Acc: 0.64%
+[Epoch: 6/75 (25.42s)] | Train Loss: 0.0171 | Train Acc: 0.69% | Val Loss: 0.0185 | Val Acc: 0.58%
+[Epoch: 7/75 (36.28s)] | Train Loss: 0.0161 | Train Acc: 0.71% | Val Loss: 0.0168 | Val Acc: 0.64%
+[Epoch: 8/75 (23.67s)] | Train Loss: 0.0148 | Train Acc: 0.73% | Val Loss: 0.0179 | Val Acc: 0.59%
+[Epoch: 9/75 (32.05s)] | Train Loss: 0.0137 | Train Acc: 0.74% | Val Loss: 0.0176 | Val Acc: 0.58%
+[Epoch: 10/75 (29.64s)] | Train Loss: 0.0127 | Train Acc: 0.78% | Val Loss: 0.0156 | Val Acc: 0.65%
+[Epoch: 11/75 (13.18s)] | Train Loss: 0.0122 | Train Acc: 0.77% | Val Loss: 0.0158 | Val Acc: 0.66%
+[Epoch: 12/75 (7.00s)] | Train Loss: 0.0119 | Train Acc: 0.77% | Val Loss: 0.0161 | Val Acc: 0.63%
+[Epoch: 13/75 (7.11s)] | Train Loss: 0.0110 | Train Acc: 0.79% | Val Loss: 0.0134 | Val Acc: 0.71%
+[Epoch: 14/75 (6.54s)] | Train Loss: 0.0106 | Train Acc: 0.80% | Val Loss: 0.0132 | Val Acc: 0.71%
+[Epoch: 15/75 (6.82s)] | Train Loss: 0.0101 | Train Acc: 0.81% | Val Loss: 0.0150 | Val Acc: 0.65%
+[Epoch: 16/75 (7.46s)] | Train Loss: 0.0094 | Train Acc: 0.81% | Val Loss: 0.0111 | Val Acc: 0.76%
+[Epoch: 17/75 (6.54s)] | Train Loss: 0.0092 | Train Acc: 0.82% | Val Loss: 0.0215 | Val Acc: 0.59%
+[Epoch: 18/75 (6.79s)] | Train Loss: 0.0092 | Train Acc: 0.82% | Val Loss: 0.0139 | Val Acc: 0.69%
+[Epoch: 19/75 (7.09s)] | Train Loss: 0.0093 | Train Acc: 0.82% | Val Loss: 0.0237 | Val Acc: 0.51%
+[Epoch: 20/75 (6.73s)] | Train Loss: 0.0089 | Train Acc: 0.82% | Val Loss: 0.0113 | Val Acc: 0.76%
+[Epoch: 21/75 (7.02s)] | Train Loss: 0.0081 | Train Acc: 0.85% | Val Loss: 0.0141 | Val Acc: 0.70%
+[Epoch: 22/75 (7.36s)] | Train Loss: 0.0078 | Train Acc: 0.86% | Val Loss: 0.0167 | Val Acc: 0.63%
+[Epoch: 23/75 (7.22s)] | Train Loss: 0.0074 | Train Acc: 0.87% | Val Loss: 0.0125 | Val Acc: 0.72%
+[Epoch: 24/75 (7.27s)] | Train Loss: 0.0069 | Train Acc: 0.87% | Val Loss: 0.0118 | Val Acc: 0.73%
+[Epoch: 25/75 (8.12s)] | Train Loss: 0.0069 | Train Acc: 0.87% | Val Loss: 0.0115 | Val Acc: 0.73%
+[Epoch: 26/75 (13.70s)] | Train Loss: 0.0067 | Train Acc: 0.88% | Val Loss: 0.0117 | Val Acc: 0.73%
+[Epoch: 27/75 (10.00s)] | Train Loss: 0.0066 | Train Acc: 0.88% | Val Loss: 0.0200 | Val Acc: 0.60%
+[Epoch: 28/75 (25.07s)] | Train Loss: 0.0063 | Train Acc: 0.89% | Val Loss: 0.0175 | Val Acc: 0.62%
+[Epoch: 29/75 (9.01s)] | Train Loss: 0.0061 | Train Acc: 0.89% | Val Loss: 0.0114 | Val Acc: 0.73%
+[Epoch: 30/75 (19.69s)] | Train Loss: 0.0059 | Train Acc: 0.89% | Val Loss: 0.0175 | Val Acc: 0.61%
+[Epoch: 31/75 (13.27s)] | Train Loss: 0.0061 | Train Acc: 0.89% | Val Loss: 0.0136 | Val Acc: 0.70%
+[Epoch: 32/75 (18.03s)] | Train Loss: 0.0058 | Train Acc: 0.90% | Val Loss: 0.0127 | Val Acc: 0.71%
+[Epoch: 33/75 (9.50s)] | Train Loss: 0.0056 | Train Acc: 0.90% | Val Loss: 0.0221 | Val Acc: 0.57%
+[Epoch: 34/75 (13.32s)] | Train Loss: 0.0054 | Train Acc: 0.90% | Val Loss: 0.0188 | Val Acc: 0.62%
+[Epoch: 35/75 (8.27s)] | Train Loss: 0.0054 | Train Acc: 0.91% | Val Loss: 0.0122 | Val Acc: 0.74%
+[Epoch: 36/75 (7.63s)] | Train Loss: 0.0050 | Train Acc: 0.91% | Val Loss: 0.0144 | Val Acc: 0.70%
+[Epoch: 37/75 (10.75s)] | Train Loss: 0.0052 | Train Acc: 0.91% | Val Loss: 0.0165 | Val Acc: 0.67%
+[Epoch: 38/75 (9.78s)] | Train Loss: 0.0049 | Train Acc: 0.91% | Val Loss: 0.0110 | Val Acc: 0.76%
+[Epoch: 39/75 (12.81s)] | Train Loss: 0.0045 | Train Acc: 0.92% | Val Loss: 0.0146 | Val Acc: 0.69%
+[Epoch: 40/75 (7.76s)] | Train Loss: 0.0046 | Train Acc: 0.92% | Val Loss: 0.0118 | Val Acc: 0.75%
+[Epoch: 41/75 (6.94s)] | Train Loss: 0.0042 | Train Acc: 0.93% | Val Loss: 0.0124 | Val Acc: 0.73%
+[Epoch: 42/75 (8.18s)] | Train Loss: 0.0045 | Train Acc: 0.92% | Val Loss: 0.0126 | Val Acc: 0.73%
+[Epoch: 43/75 (23.57s)] | Train Loss: 0.0046 | Train Acc: 0.91% | Val Loss: 0.0120 | Val Acc: 0.74%
+[Epoch: 44/75 (19.82s)] | Train Loss: 0.0043 | Train Acc: 0.93% | Val Loss: 0.0119 | Val Acc: 0.74%
+[Epoch: 45/75 (10.33s)] | Train Loss: 0.0039 | Train Acc: 0.94% | Val Loss: 0.0127 | Val Acc: 0.73%
+[Epoch: 46/75 (20.66s)] | Train Loss: 0.0038 | Train Acc: 0.94% | Val Loss: 0.0135 | Val Acc: 0.72%
+[Epoch: 47/75 (20.15s)] | Train Loss: 0.0034 | Train Acc: 0.96% | Val Loss: 0.0117 | Val Acc: 0.75%
+[Epoch: 48/75 (15.37s)] | Train Loss: 0.0037 | Train Acc: 0.94% | Val Loss: 0.0133 | Val Acc: 0.72%
+[Epoch: 49/75 (16.92s)] | Train Loss: 0.0033 | Train Acc: 0.95% | Val Loss: 0.0131 | Val Acc: 0.73%
+[Epoch: 50/75 (8.35s)] | Train Loss: 0.0035 | Train Acc: 0.94% | Val Loss: 0.0116 | Val Acc: 0.76%
+[Epoch: 51/75 (23.11s)] | Train Loss: 0.0032 | Train Acc: 0.95% | Val Loss: 0.0120 | Val Acc: 0.75%
+[Epoch: 52/75 (22.03s)] | Train Loss: 0.0032 | Train Acc: 0.94% | Val Loss: 0.0143 | Val Acc: 0.71%
+[Epoch: 53/75 (36.60s)] | Train Loss: 0.0033 | Train Acc: 0.94% | Val Loss: 0.0143 | Val Acc: 0.71%
+[Epoch: 54/75 (20.66s)] | Train Loss: 0.0033 | Train Acc: 0.94% | Val Loss: 0.0124 | Val Acc: 0.74%
+[Epoch: 55/75 (10.78s)] | Train Loss: 0.0030 | Train Acc: 0.95% | Val Loss: 0.0127 | Val Acc: 0.74%
+[Epoch: 56/75 (12.18s)] | Train Loss: 0.0028 | Train Acc: 0.97% | Val Loss: 0.0128 | Val Acc: 0.74%
+[Epoch: 57/75 (42.67s)] | Train Loss: 0.0033 | Train Acc: 0.94% | Val Loss: 0.0249 | Val Acc: 0.58%
+[Epoch: 58/75 (9.47s)] | Train Loss: 0.0032 | Train Acc: 0.95% | Val Loss: 0.0222 | Val Acc: 0.62%
+[Epoch: 59/75 (31.74s)] | Train Loss: 0.0032 | Train Acc: 0.95% | Val Loss: 0.0144 | Val Acc: 0.72%
+[Epoch: 60/75 (48.82s)] | Train Loss: 0.0029 | Train Acc: 0.95% | Val Loss: 0.0160 | Val Acc: 0.70%
+[Epoch: 61/75 (40.82s)] | Train Loss: 0.0025 | Train Acc: 0.96% | Val Loss: 0.0163 | Val Acc: 0.70%
+[Epoch: 62/75 (10.92s)] | Train Loss: 0.0026 | Train Acc: 0.96% | Val Loss: 0.0136 | Val Acc: 0.74%
+[Epoch: 63/75 (37.06s)] | Train Loss: 0.0024 | Train Acc: 0.97% | Val Loss: 0.0162 | Val Acc: 0.70%
+[Epoch: 64/75 (62.76s)] | Train Loss: 0.0028 | Train Acc: 0.95% | Val Loss: 0.0184 | Val Acc: 0.66%
+[Epoch: 65/75 (12.63s)] | Train Loss: 0.0027 | Train Acc: 0.96% | Val Loss: 0.0263 | Val Acc: 0.59%
+[Epoch: 66/75 (42.67s)] | Train Loss: 0.0027 | Train Acc: 0.96% | Val Loss: 0.0187 | Val Acc: 0.68%
+[Epoch: 67/75 (69.22s)] | Train Loss: 0.0023 | Train Acc: 0.97% | Val Loss: 0.0148 | Val Acc: 0.72%
+[Epoch: 68/75 (12.81s)] | Train Loss: 0.0024 | Train Acc: 0.96% | Val Loss: 0.0171 | Val Acc: 0.68%
+[Epoch: 69/75 (23.86s)] | Train Loss: 0.0026 | Train Acc: 0.95% | Val Loss: 0.0148 | Val Acc: 0.71%
+[Epoch: 70/75 (49.51s)] | Train Loss: 0.0025 | Train Acc: 0.96% | Val Loss: 0.0229 | Val Acc: 0.62%
+[Epoch: 71/75 (22.25s)] | Train Loss: 0.0022 | Train Acc: 0.97% | Val Loss: 0.0132 | Val Acc: 0.73%
+[Epoch: 72/75 (34.12s)] | Train Loss: 0.0021 | Train Acc: 0.97% | Val Loss: 0.0142 | Val Acc: 0.73%
+[Epoch: 73/75 (39.08s)] | Train Loss: 0.0021 | Train Acc: 0.97% | Val Loss: 0.0139 | Val Acc: 0.74%
+[Epoch: 74/75 (17.11s)] | Train Loss: 0.0019 | Train Acc: 0.98% | Val Loss: 0.0139 | Val Acc: 0.74%
+[Epoch: 75/75 (31.34s)] | Train Loss: 0.0020 | Train Acc: 0.97% | Val Loss: 0.0169 | Val Acc: 0.69%
