@@ -119,5 +119,29 @@ We were assigned the NASNetMobile Convolutional Neural Network. It is one of the
 | Task 5   | NASNet + 3 Dense Hidden Layers + Drop Out (Optuna)   | 88.40%             |
 
 
-## Task4 work
+## CNN from scratch
+
+* *Disclaimer: We solved the problems with GPU on the server by switching to PyTorch, using **only** the following commands the GPUs work correctly:
+```bash
+$ conda create --n <name> python=3.10 
+$ conda activate <name>
+$ pip3 install torch torchvision torchaudio
+```
+
+During this week, our most drastic feature was the creation of a new dataset based on the provided small dataset. We applied data augmentation but not in place, meaning that we keep the original 400~ images from the small training dataset and we add augmented images. The augmented small datasets are available on `Task4/MIT_small_augments`.
+
+Also, in order to reduce the parameters, we guided ourselves with the reduction of kernel sizes.
+
+*Note that all the experiment logs are available under the directory `/ghome/group07/`.*
+
+| Number of Parameters | Accuracy | Normalized distance to ideal ⭐️ |
+| -------------------- | -------- | ------------------------------- |
+| 141k                 | 70%      | 104.40                          |
+| 62k                  | 71%      | 52.67                           |
+| 54k                  | 75%      | 45.75                           |
+| 30k                  | 70%      | 36.78                           |
+| 21k                  | 65%      | 38.04                           |
+| **10k**              | **77%**  | **24.07**                       |
+
+
 
