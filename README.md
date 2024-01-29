@@ -121,10 +121,10 @@ We were assigned the NASNetMobile Convolutional Neural Network. It is one of the
 
 ## CNN from scratch
 
-* *Disclaimer: We solved the problems with GPU on the server by switching to PyTorch, using **only** the following commands the GPUs work correctly:
+Disclaimer: We solved the problems with GPU on the server by switching to PyTorch, using **only** the following commands the GPUs work correctly:
 ```bash
-$ conda create --n <name> python=3.10 
-$ conda activate <name>
+$ conda create --n name python=3.10 
+$ conda activate name
 $ pip3 install torch torchvision torchaudio
 ```
 
